@@ -11,10 +11,3 @@ Setup Instructions
 1. Create the consumer folder with `index.js` inside.
 1. Run `node deploy.js` to deploy the Lambda and configure the SQS trigger.
 1. The Lambda will automatically consume and print the messages in pretty JSON format to its logs. To view logs, use AWS CLI pointed to LocalStack: `aws --endpoint-url=http://localhost:4566 logs tail /aws/lambda/my-consumer`.
-
-
-| Left-Aligned | Center-Aligned | Right-Aligned |
-| :----------- |:--------------:| -------------:|
-| This         | is             | an            |
-| aligned      | text           | example       |
-| example      | table          | right         |
